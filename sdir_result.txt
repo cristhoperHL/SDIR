@@ -1,0 +1,12 @@
+https://realpython.com/python-requests/  -> Status code :200
+https://realpython.com/python-requests/.bash_history  -> Status code :403
+https://realpython.com/python-requests/.bashrc  -> Status code :403
+https://realpython.com/python-requests/.git/HEAD  -> Status code :403
+https://realpython.com/python-requests/.history  -> Status code :403
+https://realpython.com/python-requests/.htaccess  -> Status code :403
+https://realpython.com/python-requests/.htpasswd  -> Status code :403
+https://realpython.com/python-requests/.mysql_history  -> Status code :403
+https://realpython.com/python-requests/.passwd  -> Status code :403
+https://realpython.com/python-requests/.profile  -> Status code :403
+https://realpython.com/python-requests/.ssh  -> Status code :403
+https://realpython.com/python-requests/.svn/entries  -> Status code :403
