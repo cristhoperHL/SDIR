@@ -16,8 +16,8 @@ def menu_de_ayuda():
 if(sys.argv[1]=="-h" or sys.argv[1]=="--help"):
 	menu_de_ayuda()
 elif(sys.argv[1]=="-u" or sys.argv[1]=="--url" and cnt>1):
-	session = requests.Session()
-	session.trust_env = False
+	funcionara = requests.Session()
+	funcionara.trust_env = False
 	url=sys.argv[2]
 	wl=""
 	if(cnt>3):
@@ -34,7 +34,7 @@ elif(sys.argv[1]=="-u" or sys.argv[1]=="--url" and cnt>1):
 			if(i!=(len(palabra)-1)):
 				new_palabra=new_palabra+palabra[i]
 		new_url=url+new_palabra
-		page=session.get(new_url)
+		page=requests.get(new_url)
 		print(new_url,"  -> Status code : ",page.status_code)
 		if(page.status_code==200 or page.status_code==403):
 			new_file.write(new_url + "  -> Status code :" + str(page.status_code))
